@@ -10,7 +10,9 @@ var secondaEta=prompt("Inserisci l'età del/la tuo/a amico/a")
 //eseguo il confronto
 if (primaEta>secondaEta) {
   msg="E' più grande chi ha "+primaEta+" anni";
-}else {
+}else if(primaEta===secondaEta){
+  msg="Sembra quasi che abbiate la stessa età";
+}else{
   msg="E' più grande chi ha "+secondaEta+" anni";
 }
 //mando a video i risultati
